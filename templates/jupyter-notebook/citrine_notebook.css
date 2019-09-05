@@ -127,3 +127,7 @@ hr{
 .cell.selected.jupyter-soft-selected:before {
 	background-color: #f3822f !important;
 }
+
+.code_cell .inner_cell {
+	padding: 0.5em 0.5em 0.5em 0.4em;
+}

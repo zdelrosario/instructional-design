@@ -21,9 +21,10 @@
 ____
 
 
-
-
-
+# dictionary
+```python
+my_dictionary = {'name': 'Citrine', 'industry': 'Materials Informatics'}
+```
 
 # for
 ```python
@@ -39,9 +40,8 @@ def my_function(parameter):
 
 # if
 ```python
-if my_fruit == "orange" {
-    console.log("It's an orange!")
-}
+if my_fruit == "orange":
+    print("It's an orange!")
 ```
 
 ##### See also
@@ -50,8 +50,6 @@ if my_fruit == "orange" {
 [if...elif](#ifelseif)\
 [switch](#switch)\
 [ternary](#ternary)
-
-
 
 # if...else
 ```python
@@ -86,18 +84,15 @@ else:
 [ternary](#ternary)
 
 
-
 # input
 ```python
 input("What's your name?")
 ```
 
-
 # list
 ```python
 my_list = [0, "hello", 2]
 ```
-
 
 # loop
 
@@ -111,21 +106,16 @@ my_list = [0, "hello", 2]
 
 # return
 ```python
-return x;
+return x 
 ```
-
 
 # ternary
 ```python
-<condition> ? <code if true> : <code if false>;
+<code_if_true> if <condition> else <code_if_false>
 ```
 
 ```python
-x == y ? console.log('true') : console.log('false');
-```
-
-```python
-var val = x == y ? true : false;
+value = x if y == x else y
 ```
 
 ##### See also
@@ -139,12 +129,12 @@ var val = x == y ? true : false;
 
 # variable
 ```python
-my_variable = 'Hello World';
+my_variable = 'Hello World' 
 ```
 
 # while
 ```python
 while my_num < 10:
-    my_num+=1;
+    my_num+=1 
 ```
 

@@ -34,6 +34,12 @@ h1, h2, h3, .button {
     text-transform: uppercase;
 }
 
+.intro h2:first-of-type {
+    margin-top: 10px;
+    font-style: italic;
+    color: #f3822f
+}
+
 hr{
     border-top: 2px solid #A9A9A9;
     background-color: transparent;
@@ -72,6 +78,10 @@ hr{
     padding:10px
 }
 
+.toc {
+    margin-top: 25px;
+}
+
 .toc a {
 	color: #000;
 }
@@ -80,6 +90,10 @@ hr{
 .toc blockquote {
     margin: 10px 25px;
     padding: 5px 15px;
+}
+
+.toc h2 {
+    margin-bottom: 25px;
 }
 
 .toc h3 {
